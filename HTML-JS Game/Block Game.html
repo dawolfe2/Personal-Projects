@@ -9,14 +9,44 @@
       }
       .tab {
         display: inline-block;
-        margin-left: 195px;
+        margin-left: 205px;
       }
     </style>
   </head>
 
   <body onload="start()">
-    <p><span class="tab"></span>Controls</p>
-
     <script src="GameScript.js"></script>
+
+    <div style="text-align: center; width: 500px">
+      <p>Controls: Buttons or Arrow Keys</p>
+      <button
+        onmousedown="ButtonUp()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonUp()"
+      >
+        UP</button
+      ><br /><br />
+      <button
+        onmousedown="ButtonLeft()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonLeft()"
+      >
+        LEFT
+      </button>
+      <button
+        onmousedown="ButtonRight()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonRight()"
+      >
+        RIGHT</button
+      ><br /><br />
+      <button
+        onmousedown="ButtonDown()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonDown()"
+      >
+        DOWN
+      </button>
+    </div>
   </body>
 </html>
