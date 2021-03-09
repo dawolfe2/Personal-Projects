@@ -2,23 +2,14 @@
 <html lang="en">
   <head>
     <title>Block Game</title>
-    <style>
-      canvas {
-        border: 5px solid #482c94;
-        background-color: #fcfcfc;
-      }
-      .tab {
-        display: inline-block;
-        margin-left: 205px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
   </head>
 
   <body onload="start()">
     <script src="GameScript.js"></script>
 
-    <div style="text-align: center; width: 500px">
-      <p>Controls: Buttons or Arrow Keys</p>
+    <p class="instructions">Controls: Buttons or Arrow Keys</p>
+    <div class="buttons">
       <button
         onmousedown="ButtonUp()"
         onmouseup="Stop()"
