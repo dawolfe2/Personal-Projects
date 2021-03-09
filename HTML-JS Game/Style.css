@@ -1,0 +1,30 @@
+body {
+  background-color: #69676e;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  border: 5px solid #482c94;
+  background-color: #d4cfcf;
+}
+
+.buttons {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 500px;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
