@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Block Game</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+  </head>
+
+  <body onload="start()">
+    <script src="GameScript.js"></script>
+
+    <p class="instructions">Controls: Buttons or Arrow Keys</p>
+    <div class="buttons">
+      <button
+        onmousedown="ButtonUp()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonUp()"
+      >
+        UP</button
+      ><br /><br />
+      <button
+        onmousedown="ButtonLeft()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonLeft()"
+      >
+        LEFT
+      </button>
+      <button
+        onmousedown="ButtonRight()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonRight()"
+      >
+        RIGHT</button
+      ><br /><br />
+      <button
+        onmousedown="ButtonDown()"
+        onmouseup="Stop()"
+        ontouchstart="ButtonDown()"
+      >
+        DOWN
+      </button>
+    </div>
+  </body>
+</html>

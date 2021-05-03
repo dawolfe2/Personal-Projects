@@ -1,0 +1,39 @@
+.heading {
+  padding: 60px;
+  text-align: center;
+  background: #481c9b;
+  color: white;
+}
+
+.heading h1 {
+  font: size 40px;
+}
+
+body {
+  background-color: rgb(204, 200, 200);
+  font-size: 16px;
+  font-style: arial;
+}
+
+.navigation {
+  background-color: rgb(0, 0, 0);
+}
+
+.navigation a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(194, 184, 184);
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
