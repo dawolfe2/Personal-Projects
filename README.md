@@ -1,2 +1,2 @@
 # Personal-Projects
-A repository for my larger personal projects
+A repository for my smaller personal projects
